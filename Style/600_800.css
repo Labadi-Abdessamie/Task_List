@@ -1,0 +1,58 @@
+/*---------------------MEDIA FOR 600-800px---------------------*/
+@media (min-width:600px) and (max-width:800px){
+    .Tasks{
+        width: 90%;
+        margin: 8% 0% 10% 5%;
+        font-size:15px;
+        text-align: center;
+    }
+    th,td{
+        width: 20%;
+        height: 30px;
+        text-align:center;
+        font-size:15px;
+    }
+    #Content{
+        width: 90%;
+        margin : 5% 0% 0% 2%;
+        font-size: 15px;
+        text-align: center;
+    }
+    h1{
+        margin-left: 5%;
+    }
+    #FormAdd{
+        width: 100%;
+        margin: 5% 0% 0% 3%;
+        float: left;
+    }
+    #FormAdd input{
+        width: 20%;
+        height: 30px;
+        margin-top: 2%;
+        display: inline-block;
+        font-size: 15px;
+        text-align: center;
+    }
+    #FormAdd input[type=date]{
+        width: 23%;
+        height: 32.5px;
+    }
+    #FormAdd input[type=submit]{
+        width: 20%;
+        margin-left: 0%;
+        height: 30px;
+        display: inline;
+        font-size: 12px;
+        cursor: pointer;
+    }
+    #CompButton input{
+        width: 50%;
+        height: 30px;
+        margin: 4% 0% 0% 8%;
+        cursor: pointer;
+    }
+    #HideThis{
+        display: none;
+    }
+}

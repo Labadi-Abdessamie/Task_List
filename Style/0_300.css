@@ -1,0 +1,9 @@
+/*---------------------MEDIA FOR 0-300px---------------------*/
+@media screen and (max-width:299px){
+    .Tasks{
+        display: none;
+    }
+    #Content{
+        display: none;
+    }
+}

@@ -1,0 +1,56 @@
+/*---------------------MEDIA FOR 300-600px---------------------*/
+@media (min-width:300px) and (max-width:600px) {
+    .Tasks{
+        width: 90%;
+        margin: 8% 5% 10% 5%;
+        font-size:15px;
+        text-align: center;
+    }
+    th,td{
+        width: 16%;
+        height: 25px;
+        text-align:center;
+        font-size:12px;
+    }
+    #Content{
+        width: 90%;
+        margin : 5% 0% 0% 5%;
+        font-size: 15px;
+        text-align: center;
+    }
+    h1{
+        margin-left: 5%;
+    }
+    #FormAdd{
+        width: 100%;
+        float: left;
+    }
+    #FormAdd input{
+        width: 80%;
+        height: 30px;
+        margin: 2% 10% 0% 10%;
+        display : block;
+        font-size: 15px;
+        text-align: center;
+    }
+    #FormAdd input[type=date]{
+        width: 81%;
+        height: 32.5px;
+    }
+    #FormAdd input[type=submit]{
+        width: 20%;
+        height: 30px;
+        display: inline;
+        font-size: 12px;
+        cursor: pointer;
+    }
+    #CompButton input{
+        width: 50%;
+        height: 30px;
+        margin: 4% 0% 0% 0%;
+        cursor: pointer;
+    }
+    #HideThis{
+        display: none;
+    }    
+}
